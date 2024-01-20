@@ -34,22 +34,4 @@ In this tutorial, I'm going to show you the process Setting up a Landing Zone us
 
 
 
-## ⚙️ AWS Services Used
 
-* Amazon Simple Notification Service (Amazon SNS)
-* Amazon Simple Queue Service (Amazon SQS)
-* AWS Lambda Function
-* Amazon CloudWatch
-
-
-## 🔋 Features
-
-
-
-👉 The user is going to submit a notification to an SNS topic
-
-👉 It's going to be integrated with a queue in other words the queue is subscribed to the topic and the message that we add to the topic ends up in the queue
-
-👉 Then SQS is going to trigger a Lambda function
-
-👉 The Lambda function is going to run and it's going to write some information to cloudwatch and whatever we put in the topic we're going to see that in Cloud watch logs
