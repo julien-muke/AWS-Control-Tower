@@ -29,7 +29,8 @@ In this tutorial, I'm going to show you the process Setting up a Landing Zone us
 ## 📐 Architecture Design
 
 
-![Blank diagram-10](https://github.com/julien-muke/aws-serverless-app-with-sns-sqs/assets/110755734/a79f6fd4-7451-4ac6-bf7c-89d9c161f8c6)
+![Blank diagram-11](https://github.com/julien-muke/AWS-Control-Tower/assets/110755734/786ed493-5a4d-469d-ba5a-c0047744a0e6)
+
 
 
 
