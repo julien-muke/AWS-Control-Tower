@@ -138,10 +138,9 @@ That's it for this tutorial. We've set up a landing  zone, and I've shown you ar
 
 
 
+## 💰 Cost
 
-
-
-
+All services used are eligible for the AWS Free Tier. However, charges will incur at some point so it's recommended that you shut down resources after completing this tutorial.
 
 
 
