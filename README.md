@@ -67,6 +67,30 @@ B. Then, you can also create an additional OU if you wish to. This one's called 
 
 
 
+4. Configure the Shared Accounts and Encryption Settings
+
+A. We can configure the shared accounts and Configure the Shared Accounts and Encryption Settings encryption settings. Now, we don't have anything  to change for the management account. That will be this account that I'm logged in with.
+
+B. The log archive account is a repository for logs of api activities and resource configurations from all accounts in the landing zone.
+
+C. The audit account is a restricted account that gives your security and compliance teams read and write access to all accounts in your landing zone
+
+Let's provide email addresses for the log archive and audit accounts
+
+
+![Set-up-landing-zone-Control-Tower-us-east-1 (1)](https://github.com/julien-muke/AWS-Control-Tower/assets/110755734/8abeea69-67bd-43e7-9800-3f0e7c33efb4)
+
+
+D. Next, give aws control tower permissionto administer aws resources and enforce rules on your behalf and then finish setting up the landing zone.
+
+
+![Screenshot 2024-01-22 at 09 46 12](https://github.com/julien-muke/AWS-Control-Tower/assets/110755734/86711942-9df9-4b5f-9c32-dc509d961209)
+
+
+
+
+
+
 
 
 
