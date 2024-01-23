@@ -134,6 +134,8 @@ After a few minutes you can refresh the view to ensure the account is ready to u
 
 
 
+That's it for this tutorial. We've set up a landing  zone, and I've shown you around some of the basic configuration settings of your landing zone. And if you have set up in your account, then it's a good opportunity to play around a bit further and really understand how it all works.
+
 
 
 
