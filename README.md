@@ -103,6 +103,39 @@ NOTE: Once your Control Tower configuration, your landing  zone, has been create
 ![Dashboard-Control-Tower-us-east-1-3](https://github.com/julien-muke/AWS-Control-Tower/assets/110755734/b4fb1f95-4f54-4b4d-81e3-d1593da20a7c)
 
 
+👉 Let's look at the account factory:
+
+The account factory enables you to create standardized baselines and network configurations for accounts in your organization let's see how you can use it to quickly enroll a new account in your organization.
+
+A. To enroll a new account in your organization, choose "account factory" then click on "Create account"
+
+
+![Screenshot 2024-01-22 at 10 51 20](https://github.com/julien-muke/AWS-Control-Tower/assets/110755734/cdc0fd38-c482-46de-a947-8b182181f6eb)
+
+
+B. As a best practice for a well-architected multi-account environment aws control tower will set up accounts that offer isolated environments for specialized roles in your organization 
+
+* Let's provide the basic information for the account including the account email address and display name 
+
+* Next we'll designate the sso email and username next provide the first and last name intended for creating an aws sso user 
+
+* Let's retain sandbox as the organizational unit and enroll the account you can monitor the creation of the account from aws service catalog 
+
+
+
+![Create-account-Account-factory-Control-Tower-us-east-1-2](https://github.com/julien-muke/AWS-Control-Tower/assets/110755734/8f480f42-c522-4f7e-843b-35c716323234)
+
+
+
+After a few minutes you can refresh the view to ensure the account is ready to use here you can see the newly enrolled account.
+
+
+![Screenshot 2024-01-22 at 12 39 52](https://github.com/julien-muke/AWS-Control-Tower/assets/110755734/726dbdc7-0e6f-4404-80ac-eed8fb4733f5)
+
+
+
+
+
 
 
 
