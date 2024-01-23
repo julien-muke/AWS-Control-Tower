@@ -87,6 +87,24 @@ D. Next, give aws control tower permissionto administer aws resources and enforc
 ![Screenshot 2024-01-22 at 09 46 12](https://github.com/julien-muke/AWS-Control-Tower/assets/110755734/86711942-9df9-4b5f-9c32-dc509d961209)
 
 
+NOTE: Once your Control Tower configuration, your landing  zone, has been created, you'll see this message confirming what's happened, you can see the control tower dashboard:
+
+* 2 organizational units have been created, 
+* 3 shared accounts, a native cloud directory with pre-configured groups,  and single sign-on access
+* 20 preventive guardrails to enforce policies and two detective  guardrails to detect configuration violations
+
+
+![Dashboard-Control-Tower-us-east-1-2](https://github.com/julien-muke/AWS-Control-Tower/assets/110755734/7d6c6e4e-30fc-4ff2-ac29-5dbbf0646442)
+
+
+👉 On the organizational units screen you can see the new OUs and your existing organizational units which remain unchanged from before control tower was set up because they are not managed by aws control tower
+
+
+![Dashboard-Control-Tower-us-east-1-3](https://github.com/julien-muke/AWS-Control-Tower/assets/110755734/b4fb1f95-4f54-4b4d-81e3-d1593da20a7c)
+
+
+
+
 
 
 
